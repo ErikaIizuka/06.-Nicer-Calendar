@@ -1,0 +1,62 @@
+html
+{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body
+{
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(216, 216, 216);
+}
+
+h1
+{
+    text-align: center;
+}
+
+.grid 
+{
+	display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    justify-content: center;
+}
+
+.day
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: whitesmoke;
+    padding: 10px;    
+}
+
+.date
+{
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.red
+{
+    background-color: rgb(255, 168, 168);
+}
+
+.blue
+{
+    background-color: rgb(163, 226, 255);
+}
+
+.graytext
+{
+    color: rgb(156, 156, 156);
+}
+
+.plan
+{
+    font-size: 12px;
+    text-align: center;
+}
